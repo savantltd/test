@@ -1,0 +1,13 @@
+{
+  "name": "Jungle Math",
+  "description": "Educational Math Game",
+  "launch_path": "/",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Thomas Wilson",
+    "url": "http://www.quikclose.com"
+  },
+  "default_locale": "en"
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8">
+
+    <!--<script src="jquery-1.7.2.min.js"></script>-->
+    <script src="kinetic-v4.5.0.min.js"></script>
+    <!-- include SM2 library (see builds for optimized versions) -->
+    <script type="text/javascript" src="soundmanager2-nodebug-jsmin.js"></script>
+    <script src="canvasloader.min.js"></script>
+    <script src="app.js"></script>
+    <script src="game.js"></script>
+    <script src="canvas.js"></script>
+    <script src="banana.js"></script>
+    <script src="slingshot.js"></script>
+    <script src="questions.js"></script>
+    <script src="sprite.js"></script>
+    <script src="sounds.js"></script>
+    <script src="matching.js"></script>
+
+  </head>
+  <body onmousedown="return false;">
+    <div id="canvasloader-container" class="wrapper"></div>
+    <div id="container"></div>
+		<script>
+			//document.body.style.cursor = "none";
+      var cl = new CanvasLoader('canvasloader-container');
+      cl.setColor('#ecf5eb'); // default is '#000000'
+      cl.setShape('spiral'); // default is 'oval'
+      cl.setDiameter(60); // default is 40
+      cl.show(); // Hidden by default
+		</script>
+    
+    <span style="font-family:'JungleFeverRegular'; color:transparent;"></span>
+		
+  </body>
+
+</html>
